@@ -7,7 +7,7 @@
     background-color: blue;
 }
 body{
-    background-image: url(./Images/INVERTEDD\ TEXTSASS.png);
+    background-image: url(../Images/INVERTEDD\ TEXTSASS.png);
      transition: background-image 1s;
 }
 
@@ -15,7 +15,7 @@ body{
 
 body:hover{
     /* font-family:sans-serif; */
-  background-image: url(./Images/FINELINEEEEEEEEEEEEEEEEEEEEEE.png);
+  background-image: url(../Images/FINELINEEEEEEEEEEEEEEEEEEEEEE.png);
     background-repeat: no-repeat;
     background-size: auto;
      transition: background-image 1s; 
