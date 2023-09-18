@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 /* RESET STYLE */
 
 * {
@@ -12,10 +14,10 @@
     /* COLOR */
     --LIGHTCOLOR: white;
     --DARKCOLOR: black;
-
+    --SEC_COLOR: red;
     /* FONT PROPERTY */
     --FAMILY: 'Times New Roman', Times, serif;
-    --ALTFAMILY: monospace; 
+    --ALTFAMILY: 'Satisfy', cursive; 
     --SIZE: 2rem;
     --XLSIZE: 3rem;
 }
@@ -23,6 +25,7 @@
 
 body {
     font-family: var(--FAMILY);
+    height: 100vh;
 }
 
 .background {
@@ -45,21 +48,25 @@ body {
 }
 
 .header__h1{
+    font-family: 'Black Ops One', cursive;
     font-size: var(--XLSIZE);
-    background-image: linear-gradient(to left,grey,white);
+    background-image: linear-gradient(to top,var(--DARKCOLOR),var(--LIGHTCOLOR),var(--DARKCOLOR));
     -webkit-background-clip: text;
     text-transform: uppercase;
     color: transparent;
 }
 .header__p{
+    font-family: var(--FAMILY);
+    position: absolute;
+    bottom: 100px;
+    left: 26rem;
     font-weight: bolder;
-    background-image: linear-gradient(to right,aqua,white);
+    background-image: linear-gradient(to top,var(--LIGHTCOLOR),var(--SEC_COLOR),var(--LIGHTCOLOR));
     -webkit-background-clip: text;
     color: transparent;
 }
 
 .footer{
-    text-transform: uppercase;
     font-size: small;
     position: absolute;
     bottom: 0;
