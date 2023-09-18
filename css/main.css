@@ -17,6 +17,7 @@
     --FAMILY: 'Times New Roman', Times, serif;
     --ALTFAMILY: monospace; 
     --SIZE: 2rem;
+    --XLSIZE: 3rem;
 }
 
 
@@ -41,6 +42,20 @@ body {
     font-size: var(--SIZE);
     color: var(--LIGHTCOLOR);
     text-align: center;
+}
+
+.header__h1{
+    font-size: var(--XLSIZE);
+    background-image: linear-gradient(to left,grey,white);
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    color: transparent;
+}
+.header__p{
+    font-weight: bolder;
+    background-image: linear-gradient(to right,aqua,white);
+    -webkit-background-clip: text;
+    color: transparent;
 }
 
 .footer{
